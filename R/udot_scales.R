@@ -1,15 +1,15 @@
 scale_fill_udot <- function(palette = "main", reverse = FALSE, ...) {
   ggplot2::discrete_scale(
-    "fill",
-    palette_gen(palette, reverse),
+    aesthetics = "fill",
+    palette = palette_gen(palette, reverse),
     ...
   )
 }
 
 scale_colour_udot <- function(palette = "main", reverse = FALSE, ...) {
   ggplot2::discrete_scale(
-    "colour",
-    palette_gen(palette, reverse),
+    aesthetics = "colour",
+    palette = palette_gen(palette, reverse),
     ...
   )
 }
