@@ -27,7 +27,8 @@ udot_color <- function(...) {
   grays <- c(
     `dark_gray`= "#454545",
     `gray`= "#888888",
-    `light_gray`= "#EEEEEE"
+    `light_gray`= "#EEEEEE",
+    `white` = "#FFFFFF"
   )
 
   udot_colors_list <- list(
